@@ -116,7 +116,7 @@ class Trainer(nn.Module):
     def train_on_batch(self, *batch, device):
         x_batch, y_batch = batch
         x_batch = torch.as_tensor(x_batch, device=device)
-        y_batch = torch.as_tensor(y_batch, device=device).float()
+        y_batch = torch.as_tensor(y_batch, device=device)
 
         self.model.train()
         self.opt.zero_grad()
