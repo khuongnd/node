@@ -6,8 +6,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from .utils import get_latest_file, iterate_minibatches, check_numpy, process_in_chunks
-from .nn_utils import to_one_hot
+from node.utils import get_latest_file, iterate_minibatches, check_numpy, process_in_chunks
+from node.nn_utils import to_one_hot
 from collections import OrderedDict
 from copy import deepcopy
 from tensorboardX import SummaryWriter

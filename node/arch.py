@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from .odst import ODST
+from node.odst import ODST
 
 
 class DenseBlock(nn.Sequential):

@@ -3,8 +3,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 
-from .nn_utils import sparsemax, sparsemoid, ModuleWithInit
-from .utils import check_numpy
+from node.nn_utils import sparsemax, sparsemoid, ModuleWithInit
+from node.utils import check_numpy
 from warnings import warn
 
 
