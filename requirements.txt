@@ -1,9 +1,9 @@
 torch>=1.1.0
-numpy>=0.13
-scipy>=1.2.0
-scikit-learn>=0.17
-catboost==0.12.2
-xgboost==0.81
+#numpy>=0.13
+#scipy>=1.2.0
+#scikit-learn>=0.17
+# catboost>=0.12.2
+# xgboost==0.81
 matplotlib
 tqdm
 tensorboardX
@@ -11,4 +11,4 @@ pandas
 prefetch_generator
 requests
 category_encoders
-https://github.com/facebookresearch/qhoptim/archive/master.zip
+# https://github.com/facebookresearch/qhoptim/archive/master.zip
